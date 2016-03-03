@@ -1,14 +1,12 @@
 .button {
 
 	/*Button Styles */
-	height: 50px;
-	width: 300px;
+	height: 30px;
+	width: 200px;
 	background: #F5A623;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 80px;
-	padding-right: 80px;
-	margin: 50px;
+  	padding: 10px 50px 10px 50px;
+	margin: 1em auto;
+	display: block;
 
 	/*Text Styles */
 	color: white;
@@ -16,9 +14,4 @@
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 18px;
-}
-
-.button:hover {
-  background: #EA950E;
-  text-decoration: none;
 }
