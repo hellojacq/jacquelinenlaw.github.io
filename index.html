@@ -35,14 +35,14 @@
 				<div id="profile-pic" style="text-align: center;">
 					<img src="images/jacq-profile-pic.png" alt="Hi, I'm Jacq" style="height:200px; border-radius:250px; padding-bottom: 5px;">
 				</div>
-				<div id="about-me" style="background-color:">
+				<div id="about-me">
 					<p>I am a self-taught designer with experience in visual, UI/UX, product and web design. For the past six years, I worked on early-stage mobile and web marketplace apps in an operations, marketing and design capacity. My experience in cross-functional roles in a startup environment has opened my eyes to a design and engineering career path. As an aspiring full-stack designer, I strive to come up with elegant solutions to complex problems — from ideation to implementation.</p>
 
 					<p>When I’m not obsessing over pixels in Sketch, my interests include traveling, seeing live music (particularly <a href="https://open.spotify.com/user/jacquelinelaw/playlist/0scZ1IwbibHkeenuGWFqR5">hip hop</a>), and scouring thrift stores.</p>
 				</div>
 			</div>
 			<div id="contact-info" style="text-align: center;">
-				<a href="mailto:jacqueline.n.law@gmail.com?Subject=Hello%20Jacq!" class="button">Say Hello</a>
+				<a href="#" id="email-me" class="button">Say Hello</a>
 				<h4>or find me here:</h4>
 				<a href="https://twitter.com/hello_jacq"><img src="images/twitter.png" style="height:2em; padding: 0 1em 0 1em; opacity: 0.2" /></a>  
 				<a href="http://linkedin.com/in/jacquelinenlaw"><img src="images/linkedin.png" style="height:2em; padding: 0 1em 0 1em; opacity: 0.2" /></a>  
@@ -52,5 +52,25 @@
 		<div id="logo" style="text-align: center; padding-top: 20px">
 			<img src="images/jacq-black.png" style="height:30px; opacity: 0.2">
 		</div>
+		<script type="text/javascript" language="javascript">
+		<!--
+		{ coded = "Gg0o1kBFLk.L.Bgt@53gFB.0N3"
+		  key = "Jp3OCMTibtk86gQY0sd7vlLxNGRuDfhZEFqUyKm5WVHrAweBPa2zc19XSIn4oj"
+		  shift=coded.length
+		  addr=""
+		  for (i=0; i<coded.length; i++) {
+		    if (key.indexOf(coded.charAt(i))==-1) {
+		      ltr = coded.charAt(i)
+		      addr += (ltr)
+		    }
+		    else {     
+		      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+		      addr += (key.charAt(ltr))
+		    }
+		  }
+		document.getElementById("email-me").setAttribute('href', 'mailto:'+addr+'?Subject=Hello%20Jacq!');
+		}
+		//-->
+		</script>
 	</body>
 </html>
