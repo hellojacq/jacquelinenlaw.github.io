@@ -32,7 +32,7 @@ header > nav ul li a {
 	padding: 10px;
 	color: black;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .header-img {
@@ -83,7 +83,7 @@ header > nav ul li a {
 
 #contact {
 	text-align: center;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 
 #logo {
@@ -126,4 +126,10 @@ header > nav ul li a {
 	height:2em; 
 	padding: 0 1em 0 1em; 
 	opacity: 0.2;
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	color: gray;
 }
