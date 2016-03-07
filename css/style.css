@@ -50,20 +50,11 @@ header > nav ul li a {
 	background-position: center center;
 }
 
-#bio {
+#about {
 	max-width: 50em; margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-
-.darken {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
- }
 
 #hello {
 	margin: 0;
@@ -81,7 +72,12 @@ header > nav ul li a {
 	padding-top: 0em;
 }
 
-#about {
+#role {
+	text-align: center;
+	color:  whitesmoke;
+}
+
+#about-jacq {
 	text-align: center;
 }
 
@@ -102,6 +98,10 @@ header > nav ul li a {
 	background-color: white;
 	text-align: center;
 	padding-top: 1em;
+}
+
+.divider {
+	width: 200px;
 }
 
 .button {
