@@ -102,12 +102,15 @@ header > nav ul li a {
 	padding: 20px 0;
 }
 
-.section > div {
+.section-content > div {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
 }
 
+.section-content {
+	margin-top: 1em;
+}
 
 /*  COLUMN SETUP  */
 .col {
@@ -130,7 +133,7 @@ header > nav ul li a {
 }
 
 @media only screen and (max-width: 1192px) {
-	.section > div {
+	.section-content > div {
 	    display: block;
 	}
 
@@ -152,7 +155,6 @@ header > nav ul li a {
 	width: 200px;
 	background: #F5A623;
   	padding: 10px 50px 10px 50px;
-	margin: 1em auto;
 	display: block;
 
 	/*Text Styles */
@@ -161,6 +163,7 @@ header > nav ul li a {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 18px;
+	margin: 0 auto;
 }
 
 .social {
@@ -173,4 +176,5 @@ footer {
 	font-size: .75em;
 	text-align: center;
 	color: gray;
+	padding-bottom: 1em;
 }
