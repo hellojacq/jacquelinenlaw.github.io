@@ -35,6 +35,13 @@ header > nav ul li a {
 	font-size: 15px;
 }
 
+header > nav ul li a:hover {
+	padding: 10px;
+	color: #F5A623;
+	text-decoration: none;
+	font-size: 15px;
+}
+
 .header-img {
 	float: left;
 	height: 1.5em;
@@ -166,10 +173,21 @@ header > nav ul li a {
 	margin: 0 auto;
 }
 
+.button:hover {
+  background: #DB8E0E
+}
+
+
 .social {
 	height:2em; 
 	padding: 0 1em 0 1em; 
 	opacity: 0.2;
+}
+
+.social:hover {
+	height:2em; 
+	padding: 0 1em 0 1em; 
+	opacity: 0.5;
 }
 
 footer {
