@@ -147,12 +147,19 @@ header > nav ul li a:hover {
 }
 
 .portfolio-img {
-	height: 200px;
 	max-height: 200px;
+	min-width: 300px;
+}
+
+.portfolio-img:hover {
+	max-height: 200px;
+	min-width: 300px;
+	background-color: #F5A623;
 }
 
 .divider {
 	width: 200px;
+	color: #C9C9C9;
 }
 
 .button {
