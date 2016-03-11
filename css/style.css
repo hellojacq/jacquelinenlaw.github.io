@@ -55,6 +55,7 @@ header > nav ul li a:hover {
 	background-image: url(../images/hero.png);
 	background-size: cover;
 	background-position: center center;
+	border-bottom: 5px solid #F5A623;
 }
 
 #about {
