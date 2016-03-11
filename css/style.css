@@ -95,6 +95,13 @@ header > nav ul li a:hover {
 	padding-top: 20px;
 }
 
+#skills {
+	position: relative;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+
 #portfolio {
 	position: relative;
 	width: 100%;
@@ -116,27 +123,7 @@ header > nav ul li a:hover {
 }
 
 .section-content {
-	margin-top: 1em;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-
-/*  GRID OF THREE  */
-.span_3_of_3 {
-	width: 100%;
-}
-.span_2_of_3 {
-	width: 66.1%;
-}
-.span_1_of_3 {
-	width: 32.2%;
+	margin-top: 1.5em;
 }
 
 @media only screen and (max-width: 1192px) {
@@ -144,6 +131,18 @@ header > nav ul li a:hover {
 	    display: block;
 	}
 
+}
+
+.skills-img {
+	max-height: 100px;
+	max-width: 100px;
+	opacity: 0.1;
+}
+
+.skills-img:hover {
+	max-height: 100px;
+	max-width: 100px;	
+	opacity: 0.2;
 }
 
 .portfolio-img {
