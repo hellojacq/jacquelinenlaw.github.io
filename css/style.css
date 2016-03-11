@@ -88,6 +88,7 @@ header > nav ul li a:hover {
 
 #contact {
 	text-align: center;
+	margin-bottom: 1em;
 }
 
 #logo {
@@ -204,22 +205,26 @@ header > nav ul li a:hover {
   background: #DB8E0E
 }
 
-
 .social {
 	height:2em; 
-	padding: 0 1em 0 1em; 
-	opacity: 0.2;
+	padding: 1em;
+	opacity: 0.5;
 }
 
 .social:hover {
 	height:2em; 
-	padding: 0 1em 0 1em; 
-	opacity: 0.5;
+	padding: 1em;
+	opacity: 1;
 }
 
 footer {
 	font-size: .75em;
 	text-align: center;
-	color: gray;
-	padding-bottom: 1em;
+	color: whitesmoke;
+	background-color: #212121;
+	height: 150px;
+}
+
+#footer-content {
+	padding-top: 1em;
 }
