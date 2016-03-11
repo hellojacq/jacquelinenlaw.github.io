@@ -98,8 +98,14 @@ header > nav ul li a:hover {
 #skills {
 	position: relative;
 	width: 100%;
-	background-color: white;
 	text-align: center;
+	background-color: #212121;
+	color: white;
+}
+
+#skills > .divider {
+	width: 200px;
+	color: white;
 }
 
 #portfolio {
@@ -123,7 +129,7 @@ header > nav ul li a:hover {
 }
 
 .section-content {
-	margin-top: 1.5em;
+	margin-top: 2em;
 }
 
 @media only screen and (max-width: 1192px) {
@@ -153,13 +159,11 @@ header > nav ul li a:hover {
 .skills-img {
 	max-height: 100px;
 	max-width: 100px;
-	opacity: 0.1;
 }
 
 .skills-img:hover {
 	max-height: 100px;
 	max-width: 100px;	
-	opacity: 0.2;
 }
 
 .portfolio-img {
