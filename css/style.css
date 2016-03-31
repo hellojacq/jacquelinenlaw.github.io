@@ -239,6 +239,12 @@ footer {
 }
 
 @media only screen and (min-width: 700px) {
+  header nav ul#top-nav li:not(:first-child) {
+    display: inline;
+  }
+  header nav ul#top-nav li:first-child {
+    display: none;
+  }
   .col1of3 {
     width: 50%;
     float: left;
