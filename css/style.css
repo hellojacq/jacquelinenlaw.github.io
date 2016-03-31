@@ -140,13 +140,10 @@ header > nav ul li a:hover {
 }
 
 .portfolio-img {
-	max-height: 200px;
-	min-width: 300px;
+  width: 100%;
 }
 
 .portfolio-img:hover {
-	max-height: 200px;
-	min-width: 300px;
 	background-color: #FCFCFC;
 }
 
