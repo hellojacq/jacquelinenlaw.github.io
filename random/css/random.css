@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4DA1A9;
+  font-family: helvetica, arial, sans-serif;
+  color: #4DA1A9;
+}
+
+#content {
+  text-align: center;
+}
+
+#swatch {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-weight: lighter;
+}
