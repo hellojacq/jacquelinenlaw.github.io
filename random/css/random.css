@@ -18,14 +18,15 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 4em 0;
+  padding: 5em 0;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 6em;
 }
 
 h2 {
+  font-size: 3em;
   font-weight: lighter;
 }
 
@@ -33,10 +34,22 @@ h2 {
   #swatch {
     padding: 3em 0;
   }
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
 }
 
 @media (min-width: 800px) {
   #swatch {
     padding: 2em 0;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 2em;
   }
 }
