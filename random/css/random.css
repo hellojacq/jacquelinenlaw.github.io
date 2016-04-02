@@ -5,7 +5,7 @@
 
 body {
   background-color: #4DA1A9;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', helvetica, sans-serif;
   color: #4DA1A9;
 }
 
@@ -18,8 +18,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 4em 0;
 }
 
 h1 {
@@ -28,4 +27,16 @@ h1 {
 
 h2 {
   font-weight: lighter;
+}
+
+@media (min-width: 500px) {
+  #swatch {
+    padding: 3em 0;
+  }
+}
+
+@media (min-width: 800px) {
+  #swatch {
+    padding: 2em 0;
+  }
 }
